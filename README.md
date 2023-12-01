@@ -1,3 +1,36 @@
 # s10257917-assignment
-Topic: A singer called laufey
-Website is made for selling and promoting merch, as well as introducing the singer laufey, and having many easy navigations so users wont get lost when using the website
+# A laufey website
+This website is a website made to promote a Icelandic-Chinese singer named laufey. It consists of a page that explains about the singer laufey herself, a music album page to showcase her newest music album, and a merchandise page for her fans to be able to support her through buying her merch. It also has a checkout page, which lets users see what they have added to cart, and lets them confirm their purchase.
+
+##Design process
+This project was started as I am a fan of laufey, so I wanted to create a website for laufey fans to have a website that talks about her, and also provide means to support her. This website is meant to be a website that people can use with easier naviagation bars, decent sizing of fonts, and also caters to both mobile and desktop. Some improvements and challenges i faced was having to put a video background. It was something I am not familiar with, but it was worth it in the end. It was really aesthically pleasing to me. 
+
+Wireframe link: https://xd.adobe.com/view/966d9f51-faaf-4226-8386-8e91a4c7a9d4-c33e/
+##Features
+The website has 4 pages. About Laufey, Music Albums, Merch, and the checkout page. The first page shows various information about laufey, including fun facts. It also provides a link to laufey tour timings, so that users can naviagate to another webpage that shows laufey tour dates, places, timings, all updated regularly. All pages have logos that link to different Laufey socials, such as tiktok, instagram, so on and so for. Now onto the second page, music album. It displays laufey newest albums, and the list of songs in that album, as well as the total length of the full album. It also has a message at the end to promopt users to check her socials for her other songs. The third page shows a merch page with items to buy. It has a image, item name, and a Add to cart button, for users who would want to add it to their cart. And finally, the checkout page. It's a page for the user to finalize their purchases by clicking the confirm button. The confirm button wouldve led to a payment page, which unfortunately, does not exist. The checkout page lists the different items and prices, and a clear cart function, which clears the existing cart items.
+###existing features
+Allows users to clear cart by having a clear cart button
+Allows users to add items to cart by clicking add to cart
+
+###Features left to implememt
+I wanted to have a hover function for my merch page. As in when I hover over the item, a short description and an image appears, alongside with different reviews, and how many purchases have been made.
+Another feature i didnt implement is the payment page, where there would be a page to take in inputs for payment details for payment.
+
+##Technologies Used 
+Languages used are javascript, HTML, and CSS.
+no libraries or tools were used.
+
+##Testing
+The hover function would in  "Features left to implement" will show the user a pop up showing reviews, brief description of item, and price of item. It will overlay over anything else, and take up considerable space. Once user hovers away, it goes down too.
+The payment page will be a typical payment page that require credit card details for payment. Upon clicking the confirm button in the checkout page, they will be brought to this page
+
+###Media
+images are sourced from:
+https://pitchfork.com/reviews/albums/laufey-bewitched/
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrKArXZN2dl78Q5uS4l4gt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcwODAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANnMjdMVWlhRlFtSy50Skl0VkRCZ1FBBG5fcnNsdAMwBG5fc3VnZwMxMARvcmlnaW4Dc2cuaW1hZ2VzLnNlYXJjaC55YWhvby5jb20EcG9zAzAEcHFzdHIDBHBxc3RybAMwBHFzdHJsAzEyBHF1ZXJ5A3R3aXR0ZXIlMjBpY29uBHRfc3RtcAMxNzAxMjYzMzUy?p=twitter+icon&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211SG91215G0#id=1&iurl=https%3A%2F%2Fimagepng.org%2Fwp-content%2Fuploads%2F2018%2F08%2Ftwitter-icone.png&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrPpfTWLWdlUs84kzAl4gt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcwODAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZAMxN0JXcmJEVVEuT1YydmpodE1GaUJBBG5fcnNsdAMwBG5fc3VnZwMyBG9yaWdpbgNzZy5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMTMEcXVlcnkDbGF1ZmV5JTIwc2luZ2VyBHRfc3RtcAMxNzAxMjYwNzgy?p=laufey+singer&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211SG91215G0#id=19&iurl=https%3A%2F%2Fbostonglobe-prod.cdn.arcpublishing.com%2Fresizer%2FG9QQba95E2lqOZvCO8GLIyQtiMw%3D%2F1440x0%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fbostonglobe%2FDQG6HNZAWIRXR5XETH4Z5MSMA4.jpg&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=Awr1TZjR32dlyaQCnc8j4gt.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=facebook+icon&fr2=piv-web&type=E211SG91215G0&fr=mcafee#id=6&iurl=https%3A%2F%2Flh4.googleusercontent.com%2F-qfFKsYZbyBQ%2FTYHwDPCeXgI%2FAAAAAAAAE9M%2FT0BTA6mZYDE%2Fs1600%2FFacebook%2Bicon%2B01.png&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrPqiOX52dlpdIDQoAl4gt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcwODAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZAM4bzRXRTNJY1RTcWo3TllucTBnREFBBG5fcnNsdAMwBG5fc3VnZwMyBG9yaWdpbgNzZy5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMQRwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjMEcXVlcnkDdGlrdG9rJTIwbG9nbyUyMHRyYW5zcGFyZW50BHRfc3RtcAMxNzAxMzA4MzE1?p=tiktok+logo+transparent&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211SG91215G0#id=6&iurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F8e%2F1d%2F1c%2F8e1d1cee4879db1796c87f0a620afe6a.png&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrPqiMu6GdlbZ8DNe8l4gt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcwODAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANSR3ZaSnRoYVM2S3RIYnlRSTNUeHdBBG5fcnNsdAMwBG5fc3VnZwMzBG9yaWdpbgNzZy5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjYEcXVlcnkDaW5zdGFncmFtJTIwaWNvbiUyMHRyYW5zcGFyZW50BHRfc3RtcAMxNzAxMzA4NDg0?p=instagram+icon+transparent&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211SG91215G0#id=4&iurl=https%3A%2F%2Fclipartcraft.com%2Fimages%2Finstagram-logo-transparent-background-2.png&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrPrrVC6GdlM9kD2FUl4gt.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcwODAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANFaUROR1ZrMVQ5YU5Wd2x3eWN2bV9BBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNzZy5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjQEcXVlcnkDc3BvdGlmeSUyMGljb24lMjB0cmFuc3BhcmVudAR0X3N0bXADMTcwMTMwODUwOQ--?p=spotify+icon+transparent&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211SG91215G0#id=6&iurl=https%3A%2F%2F3.bp.blogspot.com%2F-Q7JrPSPptg8%2FXHkmi7WYygI%2FAAAAAAAAIOc%2FYFPV0Lu-jGYQbJmCG_cRwnGUsTirx-ISACK4BGAYYCw%2Fs1600%2Fspotify%252Blogo.png&action=click
+https://sg.images.search.yahoo.com/search/images;_ylt=AwrKAIW16mdlOpcELRwj4gt.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=youtube+icon+transparent&fr2=piv-web&type=E211SG91215G0&fr=mcafee#id=19&iurl=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fyoutube-icon-logo-png-transparent.png&action=click
