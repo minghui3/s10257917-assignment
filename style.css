@@ -1,47 +1,45 @@
-@font-face {
-    font-family: "MV Boli V1";
-    src: url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.eot");
-    src: url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/a7e3822358f6dcb2f986a68cf24721b2.svg#MV Boli V1")format("svg");
-}
+<<<<<<< HEAD
+
 body {
     margin: 0;
     overflow: auto;
-    font-family: "MV Boli V1"
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
-    font-size: 80px;
-    padding: 10px 20px;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 150px;
     transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: darkred;
+    padding-top: 20px;
+    text-shadow: 0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff;
 }
+
 .headerpara{
-    font-size: 50px;
+    font-size: 25px;
+    line-height: 60px;
     text-align: center;
+    padding-bottom: 100px;
 }
 .flex-container-1{
     display: flex;
     justify-content: center;
+    line-height: 40px;
 }
 .flexbox-1{
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     padding-left: 50px;
 }
 
@@ -49,34 +47,290 @@ nav a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     z-index: -1;
+    object-fit: cover;
   }
   .fromthestartvid{
     display: flex;
     justify-content: center;
   }
   .laufeyvidtext{
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
   }
 .home-screen-ending{
     display: flex;
     justify-content: center;
-    font-size: 75px;
+    font-size: 35px;
     text-align: center;
-    text-align: ;
+    line-height: 70px;
+    padding-bottom: 100px;
 }
 .home-screen-ending h3 a {
     text-decoration: none;
     color: black;
-    font-size: 80px;
-    padding: 10px 20px;
+    font-size: 40px;
+    padding: 0px 20px;
     border-radius: 150px;
     transition: background-color 0.3s;
 }
 
 .home-screen-ending h3 a:hover {
-    background-color: darkred;
+    text-shadow: 0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff;
+}
+.icon-bar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+/*page 2*/
+#bewitchedtxt{
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+}
+#bewitchedtxt2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+.album1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.album1 a{
+    font-size: 70px;
+    text-align: center;
+}
+.album2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.album2 a{
+    font-size: 70px;
+    text-align: center;
+}
+#albumlinktxt{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+#albumlinktxt2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+#albumlinktxt2:hover{
+    text-shadow: 0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff,0 0 30px #ffffff;
+}
+.fullalbumtxt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+#fullalbumtxt2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+/*merch page*/
+#merchtxt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.merch-container{
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.merch-container img{
+    width: 400px;
+    height: 400px;
+}
+.merch-container p{
+    justify-content: space-between;
+}
+.item-description{
+    font-size: 20px;
+    text-align: center;
+}
+.checkoutfont{
+    font-size: 40px;
+    text-align: center;
+}
+.merch-item button{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.buttonstyle{
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-to-cart-btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    color: White;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+@media (max-width: 480px) {
+    #merchtxt {
+        font-size: 40px;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+
+    .merch-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .merch-container img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .merch-container p {
+        margin-top: 10px; 
+    }
+
+    .item-description {
+        font-size: 16px; 
+    }
+
+    .checkoutfont {
+        font-size: 30px; 
+    }
+
+    .buttonstyle {
+        font-size: 14px; 
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .headerpara {
+        font-size: 14px;
+        line-height: 30px;
+        padding-bottom: 30px;
+    }
+
+    .flex-container-1 {
+        flex-direction: column;
+    }
+
+    .flexbox-1 {
+        padding-left: 10px;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .fromthestartvid iframe {
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .laufeyvidtext {
+        font-size: 12px;
+    }
+
+    .home-screen-ending {
+        font-size: 20px;
+        line-height: 40px;
+        padding-bottom: 40px;
+        height: auto;
+    }
+
+    .home-screen-ending img {
+        display: none;
+    }
+
+    .home-screen-ending h3 a {
+        font-size: 20px;
+        padding: 0px 20px;
+        height: auto;
+        border-radius: 150px;
+        transition: background-color 0.3s;
+    }
+
+    .home-screen-ending h3 a:hover {
+        text-shadow: 0 0 30px #ffffff, 0 0 30px #ffffff, 0 0 30px #ffffff, 0 0 30px #ffffff, 0 0 30px #ffffff;
+    }
+
+    .icon-bar a img {
+        width: 40px;
+        height: 40px;
+        height: auto;
+    }
+
+    img,
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*page 2 styles */
+    #bewitchedtxt {
+        font-size: 50px;
+    }
+
+    #bewitchedtxt2 {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    .album1,
+    .album2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .album1 a,
+    .album2 a {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #albumlinktxt,
+    #albumlinktxt2,
+    .fullalbumtxt,
+    #fullalbumtxt2 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
 }

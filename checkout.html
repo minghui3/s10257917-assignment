@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" style="color: White">About Laufey</a>
+        <a href="musicalbums.html" style="color: White">Music Albums</a>
+        <a href="merch.html" style="color: White">Merch</a>
+        <a href="checkout.html" style="color: White;"><img src="checkoutlogo.png" alt="Checkout Logo" width="50"
+                height="50"></a>
+    </nav>
+    <video src="Laufey%20-%20From%20The%20Start%20(Official%20Audio).mp4" id="video-background" autoplay muted
+        loop></video>
+
+    <main>
+        <div class="checkoutfont">
+        <h1 style="color: White;">Checkout</h1>
+
+        
+        <p style="color: White;" id="cartList">
+        </p>
+        <p style="color: White;">Thank you for shopping with us!</p>
+        <button onclick="clearCart()" class="buttonstyle" style="color: White">
+            Clear Cart
+        </button>
+        <button class="buttonstyle" style="color: White">
+            Confirm purchase    
+        </button>
+        </div>
+        <br><br><br>
+        <div class="icon-bar">
+            <a style= "color: White" href="https://twitter.com/laufey"><img src="twitterlogo.png" width="70" height="70" alt="Twitter Logo"></a>
+            <a style= "color: White" href="https://www.facebook.com/laufeymusic/"><img src="facebooklogo.png" width="70" height="70" alt="Facebook logo"></a>
+            <a style= "color: White" href="https://www.tiktok.com/@laufey"><img src="tiktoklogo.png" width="70" height="70" alt="TikTok Logo"></a>
+            <a style= "color: White" href="https://open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO"><img src="spotifylogo.png" width="70" height="70" alt="Spotify Logo"></a>
+            <a style= "color: White" href="https://www.instagram.com/laufey/"><img src="instagramlogo.png" width="70" height="70" alt="Instagram Logo"></a>
+            <a style= "color: White" href="https://www.youtube.com/channel/UChpKl3waLmccNeYH9LGYjUQ"><img src="youtubelogo.png" width="85" height="70" alt="Youtube Logo"></a>
+          </div>
+          </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartList = document.getElementById('cartList');
+
+            cart.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                cartList.appendChild(li);
+            });
+        });
+    </script>
+</body>
+
+</html>
